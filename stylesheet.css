@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #2c3e50;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+header a {
+  text-decoration: none;
+  display: inline-block;
+}
+header .header-left {
+  float: left;
+  margin-left: 3rem;
+  padding: 0.5rem;
+}
+header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.2rem;
+  transition: all 0.5s;
+}
+header .logo:hover {
+  color: black;
+}
+header .logo img {
+  width: 3rem;
+}
+header .menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+  margin-right: 3rem;
+}
+.header-right {
+  display: block;
+}
+header ul {
+  float: right;
+  margin-right: 3rem;
+  padding-top: 5px;
+}
+header li {
+  list-style: none;
+  display: inline-block;
+}
+header li a {
+  padding: 0 0.5rem;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+header li a:hover {
+  color: black;
+  border-bottom: 0px solid black;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.top-wrapper {
+  padding: 150px 0 100px 0;
+  margin-top: 65px;
+  background-image: url(https://anekatempatwisata.com/wp-content/uploads/2015/05/Keindahan-Green-Canyon-diapit-tebing-tinggi.jpg);
+  background-size: cover;
+  color: #f9ca24;
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+.top-wrapper h1{
+  text-transform: capitalize;
+  font-family: Lucida console;
+  font-size: 45px;
+
+}
+.main-wrapper{
+  padding-top: 30px;
+  padding-left: 50px;
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+  padding-bottom: 50px;
+}
+.content p{
+  width: 55%;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.main-content h2{
+  width: 55%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 27px;
+}
+.main-content img{
+  width: 55%;
+  margin-bottom: 20px;
+}
+.main-content p{
+  width: 55%;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+footer{
+  background-color:#2c3e50;
+  color: white;
+  padding-bottom: 120px;
+}
+.contact{
+  float: left;
+}
+.team{
+  float: left;
+  width: 20%;
+  padding-top: 10px;
+  padding-right: 40px;
+  display: inline-block;
+}
+.team h3{
+  border-bottom: 2px solid white;
+}
+.team h4{
+  font-weight: normal;
+  line-height: 1px;
+}
+.media-sosial{
+  width: 20%;
+  display: inline-block;
+  padding-top: 10px;
+}
+.media-sosial h3{
+  border-bottom: 2px solid white;
+}
+.media-sosial a{
+  color: white;
+  font-size: 35px;
+  padding-left: 10px;
+}
